@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;           
+    padding: 20px;    
+    background: radial-gradient(circle, red, black);
+    height: 100vh; 
+    margin: 0             
+}

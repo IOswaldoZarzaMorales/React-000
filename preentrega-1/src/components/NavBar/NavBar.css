@@ -1,0 +1,70 @@
+/* Reset básico para padding, margin y box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    height: 120px;
+    /* background-color: brown; */
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(circle, red, black);
+}
+
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar-item {
+    margin-right: 1rem;
+}
+
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+
+.carrito {
+    position: relative;
+}
+
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: aliceblue;
+    color: red;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    display: inline-block;
+    line-height: 1;
+}
