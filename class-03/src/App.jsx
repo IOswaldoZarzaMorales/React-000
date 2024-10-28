@@ -1,16 +1,29 @@
 
 import './App.css'
-import Hijo from './Hijo'
+import Productos from './components/Productos'
+import Producto from './components/Producto'
+import EjemploUseRef from './components/EjemploUseRef'
+import EjemploSimpleUseEffect from './components/EjemploSimpelUseEffect'
+import EjemploUseEffect from './components/EjemploUseEffect'
+import EjemploMapYPromise from './components/EjemploMapYPromise'
 
 function App() {
-  
 
   return (
     <>
-      <Hijo nombre="Oswaldo" edad="21"/>
-      <Hijo nombre="Ivan" edad="22"/>
-      <Hijo  edad="22"/>
-      <Hijo  edad="22"/>
+      {/* <Productos>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+        <Producto nombre="Empanada" precio="1500" descripcion="Empanada de jamon  y queso"/>
+      </Productos> */}
+      {/* <EjemploUseRef/> */}
+      {/* <EjemploSimpleUseEffect/> */}
+      {/* <EjemploUseEffect/> */}
+      <EjemploMapYPromise/>
+
     </>
   )
 }
